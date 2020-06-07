@@ -1,0 +1,131 @@
+:root{
+        --main-color:rgba(255,0,64);
+    }
+    
+    
+    body{
+        
+        background-size: cover;
+        padding: 0;
+        margin: 0;
+    }
+    .LoginBox1{
+        background: rgba(0,0,0,0.4);
+        width: 70%;
+        height: 350px;
+        position: absolute;
+        left: 750px;
+        bottom: 55px;
+        top: 50px;
+        border-left: 7px solid var(--main-color);
+        box-shadow: 0 0 10px rgba(0,0,0,0.45);
+        animation: LoginBox1 linear forwards;
+        opacity: 1;
+    }
+    
+    .LoginBox2{
+        background: rgba(0,0,0,0.5);
+        width: 80%;
+        height: 300px;
+        position: absolute;
+        left: 0px;
+        bottom: 45px;
+        border-right: 2px solid rgba(255,255,255,0.3);
+        box-shadow: 0 0 10px rgba(0,0,0,0.45);
+        
+    }
+    
+    .input{
+        margin: 70px 0 0 0;
+    }
+    
+    input{
+        background: transparent;
+        border: none;
+        border-bottom: 1px solid rgba(255,255,255,0.5);
+        margin: 10px;
+        padding: 2px;
+        font-size: 17px;
+        display: block;
+        color: #fff;
+        width: 250px;
+    }
+    
+    .login_a{
+        background: rgba(90,87,86,0.548);
+        width: 300px;
+        height: 50px;
+        color: #fff;
+        font-size: 40px;
+        text-align: center;
+        text-decoration: none;
+        position: absolute;
+        right: 0;
+        bottom: -10px;
+        transition: 1s;
+        font-family: "Righteous";
+    }
+    
+    .login_a:hover{
+        background: var(--main-color);
+        width: 350px;
+        transition: 1s;
+    } 
+    
+    
+    
+    .register{
+        position: relative;
+        top: 50px;
+            
+    }
+        
+    
+    
+    
+    .title{
+        font-family: "Righteous";
+        position: absolute;
+        top: 10px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        margin: auto;
+        text-align: center;
+        font-size: 40px;
+        color: #fff;
+    }
+    
+    .text{
+        position: absolute;
+        right: 70px;
+        bottom: 180px;
+        color: #fff;
+        font-size: 40px;
+    }
+    
+    .text h2{
+        margin: 0;
+        font-size: 40px;
+        color: #dd0a37;
+        font-family: "Righteous";
+    }
+    
+    .msg{
+        background: transparent;
+        margin: 10px 10px;
+        width: 80%;
+        height: 120px;
+    }
+    
+    .size{
+        position: relative;
+        margin-top: 400px;
+    }
+    
+    @keyframes LoginBox1{
+        100% {
+            opacity: 1;
+            left: 150px;
+        }
+    }
